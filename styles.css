@@ -1,0 +1,107 @@
+header {
+    color: #F5F8FC;
+    background-color: #77a0ce;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #6B8BC3;
+    background-color: #d7e7f2;
+    margin: 0px;
+    font-size: 22px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+.profile-image {
+    /* Rounded image citation: https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 20px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-family: 'Merriweather', serif;
+    color: #F5F8FC;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 30px;
+    font-size: 45px;
+  }
+
+  h3 {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+.about {
+    padding: 30px;
+}
+
+.classes {
+    padding: 30px;
+    background-color:#77a0ce;
+}
+
+.course-card {
+    /* Citation for rounded border: https://www.w3schools.com/cssref/tryit.php?filename=trycss3_border-radius */
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    color: #77a0ce;
+    background-color:#f7fbfc;
+    margin: 30px;
+}
+
+.skills {
+    background-color: #f7fbfc;
+    padding: 30px;
+}
+
+.skill-tag {
+    background-color: #bad8eb;
+    color: #77a0ce;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.skills-row {
+    /* Citation for flex wrap & spacing: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.experience {
+    background-color: #f7fbfc;
+    padding: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 22px;
+}
+
+.job {
+    margin-bottom: 50px;
+}
